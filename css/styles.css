@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #ccb5ec;
+}
+
+.top-bar{
+    min-height: 80px;
+    background-color:#500472;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    color: white;
+    align-items: center;
+    justify-items: center;
+
+}
+
+
+.top-bar #search-box input{
+    padding: 10px 30px;
+    position : absolute;
+    top: 20px;
+    left: 75px;
+    max-height: 100%;
+    font-size: 15px;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+
+.top-bar #search-btn{
+    position: absolute;
+    top: 20px;
+    left: 325px;
+
+}
+
+.top-bar #search-btn button{
+    padding: 11.1px 18px;
+    background-color: #79cbb8;
+    border-radius: 3px;
+    color: white;
+}
+
+
+
+.top-bar #top-msg a{
+    text-decoration: none;
+    color: white;
+}
+
+.top-bar #top-nav a{
+    color: white;
+    background-color: #79cbb8;
+    padding: 10px 25px;
+    margin: 3px;
+    border-radius: 20px;
+    font-size: 17px;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.modal-body{
+  padding-top: 60px;
+}
+.modal1 {
+  display: none;
+  padding: 40px 0;
+  margin: auto;
+  left: 0;
+  top: 85;
+  max-width:50%;  
+  min-height: 500px;
+  background-color: #79cbb8;
+  border: 1px solid #79cbb8;
+  border-radius:10px ;
+}
+#form-content {
+  width: 80%;
+  margin: auto;
+}
+
+#form-content  hr{
+  border: 1px dashed white ;
+}
+
+.form-details{
+  padding: 20px 0 10px;
+}
+
+.form-container input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.form-container input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.close {
+  position: absolute;
+  right: 360px;
+  top: 200px;
+  font-size: 30px;
+  font-weight:bold;
+  color: #79cbb8;
+  background-color:white;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  width: 40px;
+  text-align: center;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+} 
+
+.submit{text-align: center;
+    padding-top: 15px;
+}
+
+
+.signupbtn{
+  width: 30%;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 15px;
+  background-color:  #79cbb8;
+  color: white;
+  border:1px solid white;
+  cursor: pointer;
+}
+
+.signupbtn:hover,
+.signupbtn:focus{
+  color: #79cbb8;
+  background-color: white;
+}
+
+modal-body2{
+  padding-top: 200px;
+}
+.modal2 {
+  display: none;
+  padding: 40px 0;
+  margin: auto;
+  left: 0;
+  top: 85;
+  max-width:50%;  
+  min-height: 500px;
+  background-color: #79cbb8;
+  border: 1px solid #79cbb8;
+  border-radius:10px ;
+}
+#form-content2{
+  width: 80%;
+  margin: auto;
+}
+
+#form-content2  hr{
+  border: 1px dashed white ;
+}
+
+.form-details2{
+  padding: 20px 0 10px;
+}
+
+.form-container2 input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.form-container2 input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.close2 {
+  position: absolute;
+  right: 360px;
+  top: 200px;
+  font-size: 30px;
+  font-weight:bold;
+  color: #79cbb8;
+  background-color:white;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  width: 40px;
+  text-align: center;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #f44336;
+  cursor: pointer;
+} 
+
+.submit2{text-align: center;
+    padding-top: 15px;
+}
+
+
+.signupbtn2{
+  width: 30%;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 15px;
+  background-color:  #79cbb8;
+  color: white;
+  border:1px solid white;
+  cursor: pointer;
+}
+
+.signupbtn2:hover,
+.signupbtn2:focus{
+  color: #79cbb8;
+  background-color: white;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+} 
+
+.page-content{
+  padding-top: 50px;
+} 
+
+.store-banner{
+max-width: 95%;
+margin: auto;
+}
+
+.sb-img{
+  width: 100%;
+  height: 420px;
+  
+}
+
+.genre{
+  max-width: 95%;
+  margin: auto;
+}
+.genre-wrapper{
+  display: grid;
+  grid-template-columns:2fr 3fr 1fr;
+  grid-gap: 1em;
+  padding: 5px;
+  /* grid-auto-columns: 200px auto; */
+  grid-auto-rows: minmax(200px,auto);
+}
+
+.genre-wrapper .hiphoplink{
+  grid-row: 1/3;
+  background-image: url('../images/hiphop.JPG');
+  background-size: cover;
+}
+
+.genre .afrobeats-juju{
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  grid-gap: 1em;
+}
+.genre .afrobeats-juju .afrobeatslink{
+background-image: url(../images/afrobeat.JPG);
+background-size: cover;
+}
+
+.genre .afrobeats-juju .jujulink{
+  background-image: url(../images/juju.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.genre .gospelmusic-highlife{
+  display: grid;
+  grid-template-columns:1fr 2fr;
+  grid-gap: 1em;
+
+}
+.genre .gospelmusic-highlife .gospellink{
+  background-image: url(../images/gospel.JPG);
+  background-size: cover;
+}
+
+.genre .gospelmusic-highlife .highlifelink{
+  background-image: url(../images/highlife.JPG);
+  background-size: cover;
+}
+
+.genre-wrapper .fujilink{
+ 
+  background-image: url('../images/fuji.JPG');
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.advert-tab1{
+  margin: auto;
+  max-width: 80%;
+}
+
+
+
+
+
+
+  

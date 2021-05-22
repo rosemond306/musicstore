@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosemond music</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+        <section>
+            <header class="top-bar" id="topbar">
+                <div id="search-bar-wrap">
+                    <form action="">
+                        <div id="search-box">
+                        <input type="text" name="search" placeholder="Search Music Here...">
+                        </div>
+                        <div id="search-btn">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                   </form>
+                </div>
+
+            <div id="top-msg">
+                <a href="#">
+                    <p>Most Streamed Song Right Now:
+                        <span style="color:#79cbb8;">Fade by Davido ft Bella Shurmda </span>
+                         </p>
+                </a>   
+            </div>
+
+            <div id="top-nav">
+               <a href="#" id="myBtn1">Register</a>
+               <a href="#" id="myBtn2">Login</a>    
+            </div>
+            </header>
+          </section>
+
+          <section class="page-content">
+            <section class="modal-body">
+              <div id="myModal1" class="modal1">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="form-container">
+                    <div id="form-content">
+                    <form action="">
+                    <h1>Sign Up</h1>
+                    <br>
+                    <p style="padding-bottom: 5px;">Please fill in this form to create an account. </p>
+                    <hr>
+                    <div class="form-details">
+                      <label for="fullname"><b>Full Name</b></label>
+                      <input type="text" placeholder="Enter your Full Name" name="fullname" required>
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                      <label for="psw-repeat"><b>Repeat Password</b></label>
+                      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                      
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                      </label>
+                      
+                    </div>
+                   
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+              
+                    <div class="submit">
+                      <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+  
+                </div>
+              </div>
+
+             </section>
+             <section class="modal-body2">
+              <div id="myModal2" class="modal2">
+                <div class="modal-content2">
+                  <span class="close2">&times;</span>
+                  <div class="form-container2">
+                    <div id="form-content2">
+                    <form action="">
+                    <h1>Login</h1>
+                    <br>
+                    <p style="padding-bottom: 5px;">Please fill in this form to create an account. </p>
+                    <hr>
+                    <div class="form-details2">
+                      
+  
+                      <label for="email"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                      
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Keep me signed in
+                      </label>
+                      
+                    </div>
+                   
+                    <p>Forgot your password? <a href="#" style="color:dodgerblue">Click here to reset it</a>.</p>
+              
+                    <div class="submit2">
+                      <button type="submit" class="signupbtn2">Login</button>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+  
+                </div>
+              </div>
+
+             </section>
+             <div class="store-banner">
+               <img class="sb-img" src="images/Blue Photo Music Equipment Store Etsy Shop Cover.png" alt="">
+             </div>
+
+             <div class="genre">
+               <div class="genre-wrapper">
+                 <a class="hiphoplink" href="#">
+                  <div class="hiphop">
+                  </div>
+
+                 </a>
+                 
+                <div class="afrobeats-juju">
+                  <a class="afrobeatslink" href="#">
+                    <div class="afrobeats">
+                    </div>
+                  </a>
+                  
+                  <a class="jujulink" href="#">
+                    <div class="juju">
+                  </div>
+
+                  </a>
+                  
+                </div>
+
+
+                <a class="fujilink" href="#">
+                  <div class="fuji">
+                </div>
+                </a>
+                 
+
+                 <div class="gospelmusic-highlife">
+                   <a class="highlifelink" href="#">
+                    <div class="highlife">
+                    
+                    </div>
+
+                   </a>
+                   
+
+
+                   <a class="gospellink" href="#">
+                    <div class="gospel">
+                    
+                    </div>
+                   </a>
+                  
+                 
+
+                 </div>
+                 
+              
+
+               </div>
+             </div>
+            <div class=advert-tab1>
+              <a href="#">
+                <img src="images/ROSEMOND STORES & DELIVERY SERVICES.png" alt="">
+              </a> 
+            </div>
+          </section>
+                 
+<script>
+  var modal = document.getElementById('myModal1');
+  var btn = document.getElementById('myBtn1');
+  var span = document.getElementsByClassName('close')[0];
+
+  btn.onclick = function() {
+      modal.style.display = "block";
+      modal2.style.display = "none"
+    }
+    
+  span.onclick = function() {
+      modal.style.display = "none";
+    }
+ 
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "hide";
+    }
+  }
+
+  var modal2 = document.getElementById('myModal2');
+  var btn2 = document.getElementById('myBtn2');
+  var span2 = document.getElementsByClassName('close2')[0];
+
+  btn2.onclick = function() {
+      modal2.style.display = "block";
+      modal.style.display = "none";
+    }
+    
+  span2.onclick = function() {
+      modal2.style.display = "none";
+    }
+ 
+  window.onclick = function(event) {
+    if (event.target == modal2) {
+      modal2.style.display = "hide";
+    }
+  }
+
+  window.onscroll = function(){myFunction()};
+  
+  var topbar =document.getElementById("topbar");
+  var sticky= topbar.offsetTop;
+
+  function myFunction(){
+    if(window.pageYOffset >= sticky){
+      topbar.classList.add("sticky")
+  }else{topbar.classList.remove("sticky");
+   }
+  }
+
+</script>
+    
+</body>
+</html>
+
